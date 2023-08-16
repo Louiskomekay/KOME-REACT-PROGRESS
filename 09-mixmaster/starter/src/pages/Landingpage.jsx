@@ -13,7 +13,6 @@ export const loader = async () => {
 
 const Landingpage = () => {
     const { drinks, searchTerm } = useLoaderData();
-    console.log(drinks);
 
     return (
         <>
